@@ -1,0 +1,94 @@
+.main {
+    width: 336px;
+height: 236px;
+margin: auto;
+margin-top: 232px;
+border: 1px solid #E5E5E5;
+border-radius: 5px;
+}
+.up {
+background-color: yellow;
+width: 336px;
+height: 28px;
+border-radius: 5px;
+}
+.h1-1 {
+font-family: Roboto;
+font-size: 26px;
+font-weight: 900;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+margin-left: 85px;
+margin-right: 87px;
+margin-top: 17px;
+
+}
+.but {
+    width: 40px;
+    height: 25px;
+    margin-left: 260px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+.but-2{
+    height: 42px;
+width: 150px;
+margin-left: 92px;
+margin-right: 94;
+margin-top: 5px;
+border-radius: 71px;
+background-color:  #833AE0; 
+position: absolute;
+border-color: #833AE0;
+}
+span {
+    color: white;
+}
+.but-3 {
+    height: 42px;
+    background-color:#9763db;
+    border-radius: 71px;
+    width: 50px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 5px;
+    border-color: #9c6ade;
+    
+}
+.sp-1 {
+    margin-left: 50px;
+    display: flex;
+}
+
+.poisk {
+    display: flex;
+    border: none;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 40px;
+    background-color:#E5E5E5;
+    width: 80%;
+    margin: auto;
+}
+.input {
+    background-color: #E5E5E5;
+    border: none;
+    width: 80%;
+    border-radius: 10px;
+
+}
+.iks {
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    border: 1px solid #E5E5E5;
+    margin-right: 10px;
+    width: 30px;
+    justify-content: center;
+    
+}

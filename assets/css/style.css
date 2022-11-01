@@ -121,6 +121,7 @@ ul {
 }
 li {
     padding-left: 35px;
-
-    
+}
+.hide {
+    display: none;
 }

@@ -31,16 +31,25 @@ add.addEventListener('click', ()=>{
     console.log(" 2nd works")
     let li = document.createElement('li');
    ul.append(li);
+   let newx = document.createElement('button');
    let inputs = document.querySelectorAll('input');
    let divs = document.querySelectorAll("#input > div");
    inputs.forEach((item, index) => {
     li.innerText = inputs[index].value;
-    if (index === inputs.length - 1){
-        divs[index].remove();
-    }
    })
   ul.style.display="block"
 })
 
+let a = document.querySelector('.iks')
+a.addEventListener('click',()=>{
+  poisk.classList.add('hide')
+})
 
+
+
+plus.addEventListener('click',()=>{
+  if(poisk.classList.contains("hide")){
+    poisk.classList.remove("hide")
+  }
+})
 

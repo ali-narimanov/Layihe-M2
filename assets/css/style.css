@@ -36,28 +36,28 @@ margin-top: 17px;
 .but-2{
     height: 42px;
 width: 150px;
-margin-left: 92px;
-margin-right: 94;
-margin-top: 5px;
+position: relative;
+top: 12px;
 border-radius: 71px;
 background-color:  #833AE0; 
-position: absolute;
+left: 100px;
+
 border-color: #833AE0;
 }
-span {
-    color: white;
-}
+
 .but-3 {
     height: 42px;
     background-color:#9763db;
     border-radius: 71px;
     width: 50px;
-    position: absolute;
-    margin-left: 90px;
-    margin-top: 5px;
+    position: relative;
+    left: 0px;
+    top: -16px;
     border-color: #9c6ade;
     
+    
 }
+
 .sp-1 {
     margin-left: 50px;
     display: flex;
@@ -91,4 +91,19 @@ span {
     width: 30px;
     justify-content: center;
     
+}
+.but-2 {
+    display: inline-block;
+}
+.p2 {
+    position: relative;
+    bottom: 63px;
+    left: 64px;
+    color: white;
+}
+.p1 {
+    position: relative;
+    left: 21px;
+    bottom: -11px;
+    color: white;
 }

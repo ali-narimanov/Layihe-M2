@@ -1,30 +1,45 @@
 let body = document.body;
 let div = document.querySelectorAll('.main');
-let plus = document.querySelector('.but-3')
-let add = document.querySelector('.p2')
-let ul = document.querySelector('ul')
-let poisk = document.querySelector('.poisk')
-let iks = document.querySelector('.iks')
+let plus = document.querySelector('.but-3');
+let add = document.querySelector('.p2');
+let ul = document.querySelector('ul');
+let poisk = document.querySelector('.poisk');
+let iks = document.querySelector('.iks');
+let input = document.querySelector('input');
 
 
 
-// plus.addEventListener("click", (event)=>{
-//     event.stopPropagation();
-//     console.log("works");
-//     let newdiv = document.createElement('div');
-//     newdiv.classList.add('poisk')
-//     ul.appendChild(newdiv);
-//     let newInput = document.createElement('input');
-//     newInput.classList.add('input')
-//     newdiv.appendChild(newInput);
-//     let newx = document.createElement('button');
-//     newdiv.appendChild(newx)
-//     newx.classList.add('iks')
-//     newx.innerText = 'x'
-    
-    
-    
-// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul.addEventListener("click",(e)=>{
+  if(e.target.tagName ==="BUTTON"){
+    e.target.parentElement.remove()
+  }
+})
 
 
 add.addEventListener('click', ()=>{
@@ -37,7 +52,11 @@ add.addEventListener('click', ()=>{
    inputs.forEach((item, index) => {
     li.innerText = inputs[index].value;
    })
-  ul.style.display="block"
+   let delButton = document.createElement("button");
+   delButton.innerText="x"
+   li.append(delButton)
+  ul.style.display="block";
+  
 })
 
 let a = document.querySelector('.iks')
@@ -52,4 +71,14 @@ plus.addEventListener('click',()=>{
     poisk.classList.remove("hide")
   }
 })
+
+
+
+
+
+
+
+
+
+
 

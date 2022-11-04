@@ -57,7 +57,6 @@ add.addEventListener('click', ()=>{
    li.append(delButton)
   ul.style.display="block";
   delButton.classList.add('delButton')
-  
 })
 
 let a = document.querySelector('.iks')

@@ -162,3 +162,16 @@ button{
 .but:hover{
     background-color: white;
 }
+.iks:hover{
+    background-color: #833AE0;
+    color: white;
+    margin-top: 5px;
+    height: 28px;
+}
+
+.delButton:hover{
+    background-color: #833AE0;
+    color: white;
+    padding-right: -1px;
+    height: 28px;
+}

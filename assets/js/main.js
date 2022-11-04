@@ -56,6 +56,7 @@ add.addEventListener('click', ()=>{
    delButton.innerText="x"
    li.append(delButton)
   ul.style.display="block";
+  delButton.classList.add('delButton')
   
 })
 
@@ -71,6 +72,8 @@ plus.addEventListener('click',()=>{
     poisk.classList.remove("hide")
   }
 })
+
+
 
 
 

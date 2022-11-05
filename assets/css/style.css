@@ -1,11 +1,10 @@
 .main {
-    width: 336px;
+width: 336px;
 min-height: 236px;
 margin: auto;
 margin-top: 232px;
 border: 1px solid #E5E5E5;
 border-radius: 5px;
-
 }
 .up {
 background-color: yellow;
@@ -13,7 +12,6 @@ width: 336px;
 height: 28px;
 border-radius: 5px;
 }
-
 .h1-1 {
 font-family: Roboto;
 font-size: 26px;
@@ -24,166 +22,142 @@ text-align: center;
 margin-left: 85px;
 margin-right: 87px;
 margin-top: 17px;
-
 }
 .but {
-    width: 40px;
-    height: 25px;
-    margin-left: 260px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+ width: 40px;
+height: 25px;
+margin-left: 260px;
+margin-top: 10px;
+margin-bottom: 5px;
 }
-
-
 .but-2{
-    height: 42px;
+height: 42px;
 width: 150px;
 position: relative;
 top: 12px;
 border-radius: 71px;
 background-color:  #833AE0; 
 left: 100px;
-
 border-color: #833AE0;
 }
-
 .but-3 {
-    height: 42px;
-    background-color:#9763db;
-    border-radius: 71px;
-    width: 50px;
-    position: relative;
-    left: 0px;
-    top: -16px;
-    border-color: #9c6ade;
-    cursor: pointer;
-  
-    
-    
+height: 42px;
+background-color:#9763db;
+border-radius: 71px;
+width: 50px;
+position: relative;
+left: 0px;
+top: -16px;
+border-color: #9c6ade;
+cursor: pointer;
 }
-
 .sp-1 {
-    margin-left: 50px;
-    display: flex;
+margin-left: 50px;
+display: flex;
 }
-
 .poisk {
-    display: flex;
-    border: none;
-    justify-content: space-between;
-    border-radius: 10px;
-    height: 40px;
-    background-color:#E5E5E5;
-    width: 80%;
-    margin: auto;
+display: flex;
+border: none;
+justify-content: space-between;
+ border-radius: 10px;
+ height: 40px;
+ background-color:#E5E5E5;
+ width: 80%;
+margin: auto;
 }
 .input {
-    background-color: #E5E5E5;
-    border: none;
-    width: 80%;
-    border-radius: 10px;
-
+background-color: #E5E5E5;
+border: none;
+width: 80%;
+border-radius: 10px;
 }
 .iks {
-    background-color: #E5E5E5;
-    display: flex;
-    align-items: center;
-    border: none;
-    border-radius: 20px;
-    border: 1px solid #E5E5E5;
-    margin-right: 10px;
-    width: 30px;
-    justify-content: center;
-    cursor: pointer;
-    
+background-color: #E5E5E5;
+display: flex;
+align-items: center;
+border: none;
+border-radius: 20px;
+border: 1px solid #E5E5E5;
+margin-right: 10px;
+width: 30px;
+justify-content: center;
+cursor: pointer;
 }
 .but-2 {
-    display: inline-block;
+display: inline-block;
 }
 .p2 {
-    position: relative;
-    bottom: 63px;
-    left: 64px;
-    color: white;
-    cursor: pointer;
+position: relative;
+bottom: 63px;
+left: 64px;
+color: white;
+cursor: pointer;
 }
 .p1 {
-    position: relative;
-    left: 21px;
-    bottom: -11px;
-    color: white;
+position: relative;
+left: 21px;
+bottom: -11px;
+color: white;
 }
 ul {
-   
-   
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-   
-    
+ width: 100%;
+ padding: 0;
+ margin: 0;
+ list-style-type: none; 
 }
 li {
-    padding-top: 5px;
-    padding-left: 3px;
-    border-radius: 10px;
-    height: 35px;
-    background-color:#E5E5E5;
-    width: 80%;
-    margin-left: 32px;
-    margin-top: 10px;
-   display: flex;
-   justify-content: space-between;
+padding-top: 5px;
+padding-left: 3px;
+border-radius: 10px;
+height: 35px;
+background-color:#E5E5E5;
+width: 80%;
+margin-left: 32px;
+margin-top: 10px;
+display: flex;
+justify-content: space-between;
     
 }
-
 .hide {
-    display: none;
+display: none;
 }
 .but-3:hover{
-    background-color: #a597b8;
+background-color: #a597b8;
 }
-
-
-
 button{
-    background-color: #E5E5E5;
-    display: flex;
-    align-items: center;
-    border: none;
-    border-radius: 20px;
-    border: 1px solid #E5E5E5;
-    margin-right: 11px;
-    width: 30px;
-    justify-content: center;
-    cursor: pointer;
-    margin-bottom: 5px;
+background-color: #E5E5E5;
+display: flex;
+align-items: center;
+border: none;
+border-radius: 20px;
+border: 1px solid #E5E5E5;
+margin-right: 11px;
+width: 30px;
+justify-content: center;
+cursor: pointer;
+margin-bottom: 5px;
 }
 .but:hover{
-    background-color: white;
+background-color: white;
 }
 .iks:hover{
-    background-color: #833AE0;
-    color: white;
-    margin-top: 5px;
-    height: 28px;
+background-color: #833AE0;
+color: white;
+margin-top: 5px;
+height: 28px;
 }
-
 .delButton:hover{
-    background-color: #833AE0;
-    color: white;
-    padding-right: -1px;
-    height: 28px;
+background-color: #833AE0;
+color: white;
+padding-right: -1px;
+height: 28px;
 }
 
 .photo2 {
-    width: 27px;
-    
-    margin-left: 2px;
-    margin-top: 10px;
-    margin-bottom: 9px;
-    
-   
+width: 27px;
+margin-left: 2px;
+margin-top: 10px;
+margin-bottom: 9px;
 }
 .photo1 {
 width: 27px;
